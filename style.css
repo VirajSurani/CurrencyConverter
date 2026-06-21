@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+body {
+    background-color:antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.CurrencyConverter {
+    margin-top: 10px;
+}
+.main-div {
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.amount {
+    text-align: center;
+    margin-top: 35px;
+}
+.amount p {
+    font-size: large;
+    text-align: start;
+    padding-left: 35px;
+}
+.amount input {
+    font-size: 15px;
+    height: 30px;
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.form-to-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 35px;
+}
+
+.form-to-main p {
+    text-align: start;
+}
+
+.form-div, .to-div {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    height: 30px;
+    width: 100px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+select {
+    border: none;
+    padding-right: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+i {
+    margin-top: 23px;
+}
+
+.exchange {
+    margin-top: 35px;
+}
+
+.exchange p {
+    text-align: start;
+    padding-left: 35px;
+    font-size: large;
+}
+
+button {
+    font-size: larger;
+    margin-top: 35px;
+    height: 45px;
+    width: 80%;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+}
